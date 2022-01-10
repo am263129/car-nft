@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "modern-machine";
+  font-style: normal;
+  src: local("modern-machine"),
+    url("assets/fonts/Modern\ Machine.ttf");
+}
+
+.font-sans {
+  font-family: "Source Sans Pro";
+  font-style: normal;
+}
+
+
+body {
+  margin: 0;
+  font-family: 'modern-machine', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

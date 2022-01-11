@@ -41,7 +41,7 @@ const CarPage = () => {
               <p className="lg:w-2/3">{car.description}</p>
               <div className="flex gap-4 items-center">
                 <p>rarity: </p>
-                <p className={`${car.rarity === "common" ? "text-gray-400" : car.rarity === "uncommon" ? "text-app-green" : car.rarity === "rare" ? "text-blue-600" : car.rarity === "very_rare" ? "text-app-primary-dark":"text-app-yellow-100"} text-xl`}>{car.rarity}</p>
+                <p className={`${car.rarity === "common" ? "text-gray-400" : car.rarity === "uncommon" ? "text-app-green" : car.rarity === "rare" ? "text-blue-600" : car.rarity === "epic" ? "text-app-primary-dark":"text-app-yellow-100"} text-xl`}>{car.rarity}</p>
               </div>
               <p>trait: {car.available_traits[traitid].trait_name}</p>
             </div>

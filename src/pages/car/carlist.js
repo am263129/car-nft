@@ -332,7 +332,7 @@ export const carList = [
   {
     id: 9,
     name: "sport",
-    rarity: "very_rare",
+    rarity: "epic",
     description: "I can show you the world, shining shimering splended, tell me princess now when did you last let your heart decide, I can open your eyes, take you wonder by wonder over side and under on a magical capet ride.",
     rarity_level: 4,
     image: car10,
@@ -367,7 +367,7 @@ export const carList = [
   {
     id: 10,
     name: "classic",
-    rarity: "very_rare",
+    rarity: "epic",
     description: "I can show you the world, shining shimering splended, tell me princess now when did you last let your heart decide, I can open your eyes, take you wonder by wonder over side and under on a magical capet ride.",
     rarity_level: 4,
     image: car11,
